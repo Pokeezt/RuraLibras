@@ -45,13 +45,19 @@
     <section id="contato" class="section">
         <div class="container">
             <h2>Contato</h2>
-            <form>
-                <h1>Nome</h1>
-                <input type="text" name="nome" placeholder="Seu nome" required>
-                <h1>Email</h1>
-                <input type="email" name="email" placeholder="Seu e-mail" required>
-                <h1>Mensagem</h1>
-                <textarea name="mensagem" placeholder="Sua mensagem" required></textarea>
+            <form action="https://formspree.io/f/xpwqkzar" method="POST">
+                <label>
+                    Seu nome:
+                    <input type="text" name="nome" placeholder="Seu nome" required>
+                </label>
+                <label>
+                    Seu email:
+                    <input type="email" name="email" placeholder="Seu e-mail" required>
+                </label>
+                <label>
+                    Mensagem:
+                    <textarea name="mensagem" placeholder="Sua mensagem" required></textarea>
+                </label>
                 <button type="submit">Enviar</button>
             </form>
         </div>
