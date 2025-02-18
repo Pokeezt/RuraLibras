@@ -1,4 +1,4 @@
-/* Reset básico */
+
 * {
     margin: 0;
     padding: 0;
@@ -11,7 +11,7 @@ body {
     background-color: #f4f4f4;
 }
 
-/* Cabeçalho */
+
 header {
     background-color: #333;
     color: #fff;
@@ -38,7 +38,7 @@ nav ul li a {
     font-size: 18px;
 }
 
-/* Seções */
+
 .section {
     padding: 40px 0;
     text-align: center;
@@ -111,4 +111,18 @@ footer {
 
 footer p {
     font-size: 14px;
+}
+
+label {
+    display: block;  
+    margin-bottom: 5px;  
+    text-align: left;  
+}
+
+input {
+    width: 100%;  
+    padding: 8px;  
+    margin-bottom: 15px;  
+    border: 1px solid #ccc;  
+    border-radius: 4px;  
 }
