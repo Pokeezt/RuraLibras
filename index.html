@@ -1,74 +1,80 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RuralLibras</title>
-    <link rel="stylesheet" href="redes.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ruralibras - UFRRJ</title>
+  <link rel="stylesheet" href="ruralibras">
 </head>
 <body>
-    <header>
-        <div class="container">
-            <h1>RuralLibras</h1>
-            <nav>
-                <ul>
-                    <li><a href="#sobre">Sobre</a></li>
-                    <li><a href="#redes">Redes Sociais</a></li>
-                    <li><a href="#contato">Contato</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
 
-    <section id="sobre" class="section">
-        <div class="container">
-            <h2>Bem-vindo ao RuralLibras</h2>
-            <p>O <b>RuralLibras</b> é uma iniciativa da UFRRJ para promover a inclusão de pessoas surdas e ouvintes, utilizando a Língua Brasileira de Sinais (Libras) para conectar essas comunidades.</p>
-            <img src="ufrrjrual.jpg" alt="LIBRAS- UFRRJ da Rural"  width="200" height="200">
-        </div>
-    </section>
+  <!-- Modo Claro/Escuro -->
+  <button id="toggle-mode" onclick="toggleMode()">🌙</button>
 
-    <section id="redes" class="section">
-        <div class="container">
-            <h2>Redes Sociais</h2>
-            <div class="social-links">
-                <a href="https://t.me/ruralibras" target="_blank">Canal Telegram</a>
-                <a href="https://t.me/ruralibrasbp" target="_blank">Grupo Telegram</a>
-                <a href="https://chat.whatsapp.com/JSTysK6sSnG62DKbJZe1vJ" target="_blank">Grupo WhatsApp</a>
-                <a href="https://www.instagram.com/ruralibras.ufrrj" target="_blank">Instagram</a>
-                <a href="https://www.threads.net/@ruralibras.ufrrj" target="_blank">Threads</a>
-                <a href="https://www.facebook.com/profile.php?id=61567135617913" target="_blank">Facebook</a>
-                <a href="https://www.youtube.com/@ruralibras" target="_blank">YouTube</a>
-                <!-- <a href="https://tiktok.com/@seu_tiktok" target="_blank">TikTok</a> -->
-            </div>
-        </div>
-    </section>
+  <!-- Cabeçalho -->
+  <header>
+    <div class="logo">
+      <img src="ufrrjrual.jpg" alt="Imagem de Ruralibras" class="logo-img">
+      <h1>Ruralibras UFRRJ</h1>
+      <p>Promoção e Inclusão de Surdos na UFRRJ</p>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#informacao">Informações</a></li>
+        <li><a href="#palestras">Palestras</a></li>
+        <li><a href="#inscricao">Inscrição</a></li>
+        <li><a href="#rede-social">Redes Sociais</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    <section id="contato" class="section">
-        <div class="container">
-            <h2>Contato</h2>
-            <form action="https://formspree.io/f/xpwqkzar" method="POST">
-                <label>
-                    Seu nome:
-                    <input type="text" name="nome" placeholder="Seu nome" required>
-                </label>
-                <label>
-                    Seu email:
-                    <input type="email" name="email" placeholder="Seu e-mail" required>
-                </label>
-                <label>
-                    Mensagem:
-                    <textarea name="mensagem" placeholder="Sua mensagem" required></textarea>
-                </label>
-                <button type="submit">Enviar</button>
-            </form>
-        </div>
-    </section>
-    <br>
-    <footer>
-        <div class="container">
-            <p>&copy; 2025 RuralLibras. Todos os direitos reservados.</p>
-        </div>
-    </footer>
+  <!-- Seção de Informações -->
+  <section id="informacao">
+    <h2>Sobre o Ruralibras</h2>
+    <p>O <strong>Ruralibras</strong> é um projeto da UFRRJ que visa promover a inclusão e acessibilidade para a comunidade surda, realizando eventos como palestras, atividades culturais e cursos de capacitação.</p>
+  </section>
+
+  <!-- Seção de Palestras -->
+  <section id="palestras">
+    <h2>Palestras e Cursos</h2>
+    <p>Estamos preparando eventos incríveis para promover a inclusão de surdos na UFRRJ. Fique atento!</p>
+  </section>
+
+  <!-- Inscrição (Indisponível por enquanto) -->
+  <section id="inscricao">
+    <h2>Inscrição para Palestras e Cursos</h2>
+    <p>Inscreva-se para participar de nossas palestras e cursos (A inscrição está temporariamente indisponível).</p>
+    <button disabled>Inscrição Indisponível</button>
+  </section>
+
+  <!-- Redes Sociais -->
+  <section id="rede-social">
+    <h2>Redes Sociais</h2>
+    <div class="social-links">
+      <a href="https://www.instagram.com/ruralibras.ufrrj" target="_blank" class="social-btn">Instagram</a>
+      <a href="https://www.threads.net/@ruralibras.ufrrj" target="_blank" class="social-btn">Threads</a>
+      <a href="https://www.facebook.com/profile.php?id=61567135617913" target="_blank" class="social-btn">Facebook</a>
+      <a href="https://www.youtube.com/@ruralibras" target="_blank" class="social-btn">YouTube</a>
+      <!-- <a href="https://www.tiktok.com" target="_blank" class="social-btn">TikTok</a> ainda falta tiktok --> 
+      <a href="https://chat.whatsapp.com/JSTysK6sSnG62DKbJZe1vJ" target="_blank" class="social-btn">Whatsapp</a>
+      <a href="https://t.me/ruralibras" target="_blank" class="social-btn">Canal Telegram</a>
+      <a href="https://t.me/ruralibrasbp" target="_blank" class="social-btn">Grupo Telegram</a>
+    </div>
+  </section>
+
+  <!-- Contato -->
+  <section id="contato">
+    <h2>Contato</h2>
+    <p>Tem alguma dúvida? Entre em contato conosco através do e-mail:</p>
+    <a href="mailto:rural@gmail.com" class="email-btn">Enviar e-mail para Ruralibras
+  </section>
+
+  <!-- Rodapé -->
+  <footer>
+    <p>&copy; 2025 Ruralibras da UFRRJ. Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="ruralscript.js"></script>
 </body>
 </html>
