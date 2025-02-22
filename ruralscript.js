@@ -7,8 +7,10 @@ function toggleMode() {
   
     if (body.classList.contains("dark-mode")) {
       button.textContent = "🌞"; // Ícone do modo claro
+      localStorage.setItem("mode", "dark"); 
     } else {
       button.textContent = "🌙"; // Ícone do modo escuro
+      localStorage.setItem("mode", "light");
     }
   }
 // Função para carregar o modo inicial
